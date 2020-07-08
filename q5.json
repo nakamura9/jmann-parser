@@ -1,0 +1,310 @@
+[{
+    "description": "S=SMLS  SP=Spiral Weld  ST=Structural",
+    "options": ["S", "SP", "ST"]
+}, null, {
+    "description": "MF=Male/Female   F=Female/Female   M=Male",
+    "options": ["MF", "F", "M"]
+}, {
+    "description": "S=Screwed   W=Weld On   F=Flanged",
+    "options": ["S", "W", "F"]
+}, {
+    "description": "Degrees (e.g.90,45,R for Reducing)",
+    "options": "num"
+}, null, null, {
+    "description": "W=Wrought Steel   M=Malleable",
+    "options": ["W", "M"]
+}, {
+    "description": "G=Galv  B=Black  S=Steam   J=JIS Fitting",
+    "options": ["G", "B", "S", "J"]
+}, null, null, null, null, null, null, null, null, {
+    "description": "S=Screwed    W=Weld On",
+    "options": ["S", "W"]
+}, null, null, {
+    "description": "W=Weld On     R=Rubber",
+    "options": ["W", "R"]
+}, {
+    "description": "G=Galvanised   B=Black  C=Concentric",
+    "options": ["G", "B", "C"]
+}, null, null, null, {
+    "description": "C=Coupler  T=Tap Connector  U=Union Coupler",
+    "options": ["C", "T", "U"]
+}, null, {
+    "description": "A=1009    B=1015   C=97/3",
+    "options": ["A", "B", "C"]
+}, null, {
+    "description": "F=Flanged    P=Plain Ended   FH=Fire Hydrant",
+    "options": ["F", "P", "FH"]
+}, null, null, null, null, null, null, null, {
+    "description": "Length in Metres(Up to 2 Decimals)  R=Random",
+    "options": "num"
+}, null, {
+    "description": "EN e.g.3,8 etc",
+    "options": "str"
+}, null, {
+    "description": "S=Sheet P=Plate C=Check Plate B=Bennox",
+    "options": ["S", "P", "C", "B"]
+}, {
+    "description": "Cat Number (last 4 digits)",
+    "options": "num"
+}, null, {
+    "description": "Size in mm (or inches for BSP/BSW - NOTE: 1.12=1.1/2\")",
+    "options": "str"
+}, null, null, null, null, {
+    "description": "Part Number (last 4 digits)",
+    "options": "num"
+}, {
+    "description": "Cat Number  (Last 4 digits)",
+    "options": "num"
+}, null, null, null, null, null, null, null, null, null, {
+    "description": "T=Taper Lock  P=Pilot Bore  R=Rosta",
+    "options": ["T", "P", "R"]
+}, null, null, null, null, {
+    "description": "Size in mm                                              )",
+    "options": "num"
+}, null, {
+    "description": "T=Threaded",
+    "options": ["T"]
+}, {
+    "description": "A=ACP/AC  T=TCP   TB=TBRP  H=HDPE  P=PEP",
+    "options": ["A", "T", "TB", "H", "P"]
+}, {
+    "description": "Numeric Code (22,40,41,etc) (If applicable)",
+    "options": "num"
+}, null, {
+    "description": "Type (e.g.TIFV,UTP,VTP etc.)  R=R/Ring   M=M/Ring",
+    "options": ["R", "M"]
+}, {
+    "description": "V=GIV  FV=GIFV  PD=PDP  PC=PCP  Q=QFP  HC=HCP  HD=HDPE",
+    "options": ["V", "FV", "PD", "PC", "Q", "HC", "HD"]
+}, null, {
+    "description": "D=Double  L=Long  S=Short  V=Valve  F=Faucet",
+    "options": ["D", "L", "S", "V", "F"]
+}, null, null, null, null, null, {
+    "description": "V=Valve",
+    "options": ["V"]
+}, null, {
+    "description": "B=PBP   F=PFP  H=HDPE",
+    "options": ["B", "F", "H"]
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, {
+    "description": "Small Size in mm or inches (Spares only)",
+    "options": "str"
+}, null, null, {
+    "description": "Category No. (Last 4 Digits)",
+    "options": "num"
+}, {
+    "description": "Category No. (Last 4 Digits)",
+    "options": "num"
+}, null, null, null, null, null, null, null, null, {
+    "description": "Small Size in mm",
+    "options": "num"
+}, {
+    "description": "Length in mm",
+    "options": "num"
+}, {
+    "description": "T=Tripod   F=Four legged",
+    "options": ["T", "F"]
+}, {
+    "description": "S=Stacking L=Link SR=Swivel/Revolving",
+    "options": ["S", "L", "SR"]
+}, {
+    "description": "Small Size in inches",
+    "options": "str"
+}, null, {
+    "description": "Large size in inches  (Height in inches for Africa Desks)",
+    "options": "str"
+}, {
+    "description": "Type (e.g.S146,S149 etc.)  S=Stationery",
+    "options": ["S"]
+}, null, null, null, null, {
+    "description": "No.of Castors",
+    "options": "num"
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, {
+    "description": "C=Canvas  N=Nylon  U=Upholstered",
+    "options": ["C", "N", "U"]
+}, null, null, null, null, null, null, null, null, {
+    "description": "UB=Univ.Beam  IP=IPEAA Beam UC=Univ.Column J=Joists",
+    "options": ["UB", "IP", "UC", "J"]
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, {
+    "description": "W=Weir Type   S=Straight Type",
+    "options": ["W", "S"]
+}, null, null, null, null, {
+    "description": "Length in metres  R=Random",
+    "options": "num"
+}, {
+    "description": "B=Black  BM=BMS  S=Strip  SP=Spring",
+    "options": ["B", "BM", "S", "SP"]
+}, null, {
+    "description": "S=Sheet  P=Plate  M=Mesh",
+    "options": ["S", "P", "M"]
+}, null, {
+    "description": "B=Bison/Block M=Meranti P=Ply S=Saligna SW=Supa O=Other",
+    "options": ["B", "M", "P", "S", "SW", "O"]
+}, null, {
+    "description": "Colour (First 4 Letters e.g.BROW=Brown etc)",
+    "options": ["ROW"]
+}, null, null, null, null, null, null, null, null, {
+    "description": "P=Plastic  R=Rubber",
+    "options": ["P", "R"]
+}, null, null, null, null, null, {
+    "description": "C=Couch H=Hex V=Verandah O=Other",
+    "options": ["C", "H", "V", "O"]
+}, null, {
+    "description": "C=Cheese  S=C/Sunk  P=Pan  R=Raised",
+    "options": ["C", "S", "P", "R"]
+}, null, {
+    "description": "A=Aluminium  P=Pop  S=Steel  T=Tubular",
+    "options": ["A", "P", "S", "T"]
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, {
+    "description": "Length in metres  R=Random",
+    "options": "num"
+}, null, {
+    "description": "Length in metres (R=Random)",
+    "options": "num"
+}, null, {
+    "description": "Type e.g. EN9 etc.if applicable",
+    "options": "str"
+}, null, null, {
+    "description": "Type e.g.EN9 etc.(Squaresteel Only)",
+    "options": "str"
+}, {
+    "description": "P=Plate  S=Sheet  B=Bennox",
+    "options": ["P", "S", "B"]
+}, {
+    "description": "S=Screwed   W=Weld On   F=Flanged",
+    "options": ["S", "W", "F"]
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, {
+    "description": "P=Pin Half D=Driven Half C=Complete F=Flanged",
+    "options": ["P", "D", "C", "F"]
+}, null, null, null, {
+    "description": "T=Taper Bush   P=Pilot Bore  O=Other",
+    "options": ["T", "P", "O"]
+}, {
+    "description": "Size in inches (if applicable-use e.g.11/4 for 1.1/4\")",
+    "options": "str"
+}, null, {
+    "description": "Size of Wheel/Worm in inches (if applicable)",
+    "options": "str"
+}, null, {
+    "description": "D=Dipstick  DA=Dipstick Assembly",
+    "options": ["D", "DA"]
+}, {
+    "description": "W=Wheel Spacer WO=Worm Spacer",
+    "options": ["W", "WO"]
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, {
+    "description": "H=Helicon  R=Ring  WH=Wheel  WS=W/Shaft  WO=Worm",
+    "options": ["H", "R", "WH", "WS", "WO"]
+}, null, null, {
+    "description": "G=Gearboxes  S=Sleeves",
+    "options": ["G", "S"]
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, null, {
+    "description": "Ratio (e.g.5,20,12.5 etc)",
+    "options": "num"
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, {
+    "description": "MF=Male/Female   F=Female/Female   M=Male",
+    "options": ["MF", "F", "M"]
+}, {
+    "description": "Small Size in mm or inches (Spares only)",
+    "options": "str"
+}, null, null, null, null, null, null, null, null, null, {
+    "description": "C=Coupler  T=Tap Connector  U=Union Coupler",
+    "options": ["C", "T", "U"]
+}, null, {
+    "description": "W=Weir Type   S=Straight Type",
+    "options": ["W", "S"]
+}, null, null, {
+    "description": "Degrees (e.g.90,45,R for Reducing)",
+    "options": "num"
+}, {
+    "description": "S=Screwed    W=Weld On",
+    "options": ["S", "W"]
+}, null, null, {
+    "description": "F=Flanged    P=Plain Ended   FH=Fire Hydrant",
+    "options": ["F", "P", "FH"]
+}, null, null, null, null, null, null, null, null, {
+    "description": "E=ERW     S=SMLS     SP=Spiral Weld",
+    "options": ["E", "S", "SP"]
+}, null, {
+    "description": "G=Galvanised   B=Black  C=Concentric",
+    "options": ["G", "B", "C"]
+}, {
+    "description": "W=Weld On     R=Rubber",
+    "options": ["W", "R"]
+}, {
+    "description": "W=Wrought Steel   M=Malleable",
+    "options": ["W", "M"]
+}, {
+    "description": "A=1009    B=1015",
+    "options": ["A", "B"]
+}, null, {
+    "description": "G=Galv  B=Black  S=Steam   J-JIS Fitting",
+    "options": ["G", "B", "S"]
+}, null, null, null, {
+    "description": "Length in Metres(Up to 2 Decimals)  R=Random",
+    "options": "num"
+}, null, null, null, {
+    "description": "CF = Cold Formed",
+    "options": ["CF"]
+}, null, null, null, null, null, {
+    "description": "S=Sheet P=Plate E=Exp Metal C=Check Plate B=Bennox",
+    "options": ["S", "P", "E", "C", "B"]
+}, null, null, {
+    "description": "Category No. (Last 4 Digits)",
+    "options": "num"
+}, {
+    "description": "Category No. (Last 4 Digits)",
+    "options": "num"
+}, null, null, null, null, null, {
+    "description": "Cat Number (last 4 digits)",
+    "options": "num"
+}, {
+    "description": "Size in mm (or inches for BSP/BSW - NOTE: 1.12=1.1/2\")",
+    "options": "str"
+}, null, null, null, null, null, null, null, null, null, {
+    "description": "Part Number (last 4 digits)",
+    "options": "num"
+}, {
+    "description": "Cat Number  (Last 4 digits)",
+    "options": "num"
+}, {
+    "description": "A=ACP/AC  T=TCP   TB=TBRP  H=HDPE  P=PEP",
+    "options": ["A", "T", "TB", "H", "P"]
+}, {
+    "description": "Numeric Code (22,40,41,etc) (If applicable)",
+    "options": "num"
+}, null, null, null, null, null, null, {
+    "description": "B=PBP   F=PFP  H=HDPE",
+    "options": ["B", "F", "H"]
+}, {
+    "description": "V=GIV  FV=GIFV  PD=PDP  PC=PCP  Q=QFP  HC=HCP  HD=HDPE",
+    "options": ["V", "FV", "PD", "PC", "Q", "HC", "HD"]
+}, null, null, null, null, null, null, null, {
+    "description": "R=RRJ  S=Solv Joint  H=HDS  HD=HDPE  LD=LDPE  U=Ultratuff",
+    "options": ["R", "S", "H", "HD", "LD", "U"]
+}, null, null, null, null, {
+    "description": "D=Double  L=Long  S=Short  V=Valve  F=Faucet",
+    "options": ["D", "L", "S", "V", "F"]
+}, null, {
+    "description": "V=Valve",
+    "options": ["V"]
+}, null, {
+    "description": "Type (e.g.TIFV,UTP,VTP etc.)  R=R/Ring   M=M/Ring",
+    "options": ["R", "M"]
+}, null, {
+    "description": "T=Threaded",
+    "options": ["T"]
+}, null, null, null, null, null, null, null, null, null, null, null, {
+    "description": "T=Taper Bush  P=Pilot Bore  R=Rosta",
+    "options": ["T", "P", "R"]
+}, null, null, null, null, null, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, null, null, null, null, null, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]

@@ -1,0 +1,607 @@
+[{
+    "description": "L=Light M=Medium H=Heavy LB=Large Bore F=Flanged K=Klambon",
+    "options": ["L", "M", "H", "LB", "F", "K"]
+}, {
+    "description": "S=Square  R=Round  C=Copper  RC=Rectangular",
+    "options": ["S", "R", "C", "RC"]
+}, {
+    "description": "K=Klambon    F=Flanged",
+    "options": ["K", "F"]
+}, {
+    "description": "G=Galvanised    B=Black",
+    "options": ["G", "B"]
+}, {
+    "description": "K=Klambon   C=Copper    SH=Schedule No (Butt Weld only)",
+    "options": ["K", "C", "SH"]
+}, {
+    "description": "B=Barrel   H=Hex   S=Swaged   P=Plain   R=Running",
+    "options": ["B", "H", "S", "P", "R"]
+}, null, {
+    "description": "G=Galv   B=Black   S=Steam   H=Heavy Duty",
+    "options": ["G", "B", "S", "H"]
+}, {
+    "description": "K=Klambon  C=Copper  SH=Schedule No (Butt Weld only)",
+    "options": ["K", "C", "SH"]
+}, {
+    "description": "CF=Cone Face   N=Navy   F=Flat Face",
+    "options": ["CF", "N", "F"]
+}, {
+    "description": "G=Galv   B=Black   S=Steam",
+    "options": ["G", "B", "S"]
+}, null, null, {
+    "description": "K=Klambon",
+    "options": ["K"]
+}, null, null, null, {
+    "description": "Table No (e.g. F,H etc.- Imper.: 1000,1600 etc. - Metric) )",
+    "options": "str"
+}, {
+    "description": "G=Galv    B=Black",
+    "options": ["G", "B"]
+}, null, {
+    "description": "K=Klambon   O=Other",
+    "options": ["K", "O"]
+}, {
+    "description": "K=Klambon  B=BSP  C=Copper  SH=Sch.No (Butt Weld) J=JIS Fitt",
+    "options": ["K", "B", "C", "SH", "J"]
+}, null, {
+    "description": "A=Angle    C=Copper to copper",
+    "options": ["A", "C"]
+}, {
+    "description": "Style (e.g.4333,3XA,ACID etc.)",
+    "options": "str"
+}, {
+    "description": "CC=Cop/Cop  CF=Cop/F.Iron   CM=Cop/M.Iron  B=Brass",
+    "options": ["CC", "CF", "CM", "B"]
+}, null, {
+    "description": "S=Solder    F=Flux",
+    "options": ["S", "F"]
+}, {
+    "description": "P=Pegler    C=Conti",
+    "options": ["P", "C"]
+}, {
+    "description": "Class (If applicable)",
+    "options": "str"
+}, null, {
+    "description": "S=Screwed    F=Flanged    SH=Shouldered",
+    "options": ["S", "F", "SH"]
+}, {
+    "description": "S=Screwed    F=Flanged UD",
+    "options": ["S", "F"]
+}, null, null, {
+    "description": "H=High Pressure  L=Low Pressure",
+    "options": ["H", "L"]
+}, null, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, {
+    "description": "Length in metres     R=Random",
+    "options": "num"
+}, {
+    "description": "B=Bright  BL=Black  D=Deformed",
+    "options": ["B", "BL", "D"]
+}, {
+    "description": "Length in metres (Max 2 Decimal) R = Random",
+    "options": "num"
+}, {
+    "description": "Thickness in mm (1 Decimal only if required)",
+    "options": "num"
+}, {
+    "description": "Model No.(e.g.820,2A,3S,4S,6S,etc)",
+    "options": "num"
+}, null, {
+    "description": "Model (eg OOR,11R,12R,531,532,541,542,811 etc.)",
+    "options": "str"
+}, null, null, {
+    "description": "S=Straight   B=Button Head    Degrees e.g. 45,90",
+    "options": "num"
+}, null, {
+    "description": "C=Complete   S=Spares",
+    "options": ["C", "S"]
+}, {
+    "description": "Size in inches",
+    "options": "str"
+}, {
+    "description": "Belt Size(Numerals only)",
+    "options": "num"
+}, null, {
+    "description": "Type (e.g. H,F,TB)",
+    "options": "str"
+}, null, null, null, null, {
+    "description": "Number of Grooves",
+    "options": "num"
+}, null, {
+    "description": "Size in inches (e.g.3/4,3/8,1)",
+    "options": "str"
+}, null, null, null, null, {
+    "description": "R=RRJ  S=Solv.Jnt  F=Flanged                            )",
+    "options": ["R", "S", "F"]
+}, null, {
+    "description": "S=Sgl Union  D=Dbl Union  H=HDPE  S=Solv.Joint",
+    "options": ["S", "D", "H", "S"]
+}, {
+    "description": "Small Size in mm or inch (Reducing only)",
+    "options": "str"
+}, {
+    "description": "Alpha Code (e.g.BP,SB,UB etc.) SR=Short Radius",
+    "options": ["SR"]
+}, null, {
+    "description": "Small Size in mm or Inches (Unequal Tees only)",
+    "options": "num"
+}, {
+    "description": "Small Size in mm or inch (Reducing only)",
+    "options": "str"
+}, {
+    "description": "S=Serrated Face  O=O-Ring Seat  Q=QRD",
+    "options": ["S", "O", "Q"]
+}, {
+    "description": "L=LPSP  MV=MIFP/MIFV  P=PSP   V=VSP",
+    "options": ["L", "MV", "P", "V"]
+}, {
+    "description": "Small Size In mm",
+    "options": "num"
+}, null, null, null, null, {
+    "description": "V=VMP",
+    "options": ["V"]
+}, null, {
+    "description": "Small Size in mm (Reducing only) (Inches for Nylon)",
+    "options": "num"
+}, {
+    "description": "No of Bolts (e.g.2,4,6 etc.)",
+    "options": "str"
+}, null, {
+    "description": "G = Garden M = Mining S = Suction L = Layflat T = Tobacco",
+    "options": ["G", "M", "S", "L", "T"]
+}, {
+    "description": "F=FI  M=MI",
+    "options": ["F", "M"]
+}, null, null, null, null, null, null, null, null, {
+    "description": "W=Wafer     O=Other",
+    "options": ["W", "O"]
+}, null, null, null, null, {
+    "description": "D=DIVP   R=RBP   N=Nylon",
+    "options": ["D", "R", "N"]
+}, null, null, null, {
+    "description": "Large Size in mm or inches",
+    "options": "str"
+}, null, null, {
+    "description": "Short Description (First 4 Letters)e.g.Back=Backplate",
+    "options": null
+}, {
+    "description": "Alpha Description (First 4 Letters)",
+    "options": null
+}, null, null, {
+    "description": "Length in metres (up to 2 Decimals)",
+    "options": "num"
+}, null, null, null, {
+    "description": "S=Square  H=Hollow  HX=Hex",
+    "options": ["S", "H", "HX"]
+}, null, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Type (e.g.S407,C53 etc)NOTE use X619 for EX619",
+    "options": "str"
+}, {
+    "description": "Small Size in mm",
+    "options": "num"
+}, {
+    "description": "P=Popular T=Typist/Mach H=Havana I=Indiana L=Lecture",
+    "options": ["P", "T", "H", "I", "L"]
+}, {
+    "description": "Large Size in inches",
+    "options": "str"
+}, {
+    "description": "Height in mm  (if applicable)",
+    "options": "num"
+}, {
+    "description": "Type (e.g.S415,S132 etc.) NOTE:Use X357 for EX357 etc.",
+    "options": "str"
+}, {
+    "description": "Depth in inches",
+    "options": "str"
+}, null, null, null, null, {
+    "description": "Width in mm",
+    "options": "num"
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, {
+    "description": "Small Size in mm",
+    "options": "num"
+}, null, {
+    "description": "S=Steel  A=Aluminium",
+    "options": ["S", "A"]
+}, null, null, null, null, null, null, null, null, {
+    "description": "Length in metres",
+    "options": "num"
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, {
+    "description": "V=Valve  S=Spares",
+    "options": ["V", "S"]
+}, {
+    "description": "L=Light  M=Medium  H=Heavy",
+    "options": ["L", "M", "H"]
+}, {
+    "description": "R=Round  S=Square  RT=Rectangular",
+    "options": ["R", "S", "RT"]
+}, {
+    "description": "B=Black  BR=Bright",
+    "options": ["B", "BR"]
+}, {
+    "description": "B=Black  BR=Bright",
+    "options": ["B", "BR"]
+}, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, {
+    "description": "Length in metres",
+    "options": "num"
+}, null, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, null, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, null, {
+    "description": "C=Covers N=Northide O=Other (PVC only)",
+    "options": ["C", "N", "O"]
+}, null, {
+    "description": "Colour (First 4 Letters e.g.GREE=Green)",
+    "options": ["REE"]
+}, {
+    "description": "Colour (First 4 Letters e.g.GREE=Green)",
+    "options": ["REE"]
+}, null, null, null, null, null, {
+    "description": "B=Bushes  F=Ferrules  O=Other",
+    "options": ["B", "F", "O"]
+}, null, null, null, null, {
+    "description": "C=Castors  R=Rims/Tyres  W=Wheels/Hub Caps",
+    "options": ["C", "R", "W"]
+}, {
+    "description": "Type (e.g.M20,M8 etc.)",
+    "options": "str"
+}, null, {
+    "description": "B=Bed  M=Machine  S=Self-Tapping  W=Wood  O=Other",
+    "options": ["B", "M", "S", "W", "O"]
+}, null, {
+    "description": "R=Rivets  S=Studs  SP=Spacers",
+    "options": ["R", "S", "SP"]
+}, null, null, null, null, null, null, null, {
+    "description": "L=Light M=Medium H=Heavy O=Other",
+    "options": ["L", "M", "H", "O"]
+}, null, {
+    "description": "S=Square R=Round",
+    "options": ["S", "R"]
+}, null, null, {
+    "description": "G=Galv  B=Black  S=Steam",
+    "options": ["G", "B", "S"]
+}, {
+    "description": "F=Female  MF=Male/Female",
+    "options": ["F", "MF"]
+}, null, null, null, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, {
+    "description": "Length in metres   R=Random",
+    "options": "num"
+}, {
+    "description": "Type e.g.EN9 etc (Axlesteel only)",
+    "options": "str"
+}, {
+    "description": "H=Hex Bar   K=Keysteel",
+    "options": ["H", "K"]
+}, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, null, {
+    "description": "Length in metres (R=Random)",
+    "options": "num"
+}, {
+    "description": "B=Square Bar  S=Square Steel",
+    "options": ["B", "S"]
+}, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, {
+    "description": "G=Galvanised    B=Black",
+    "options": ["G", "B"]
+}, null, null, null, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, null, {
+    "description": "N=Nuts  B=Bolts  W=Washers  O=Other",
+    "options": ["N", "B", "W", "O"]
+}, {
+    "description": "G=Grubscrew  S=Setscrew  O=Other",
+    "options": ["G", "S", "O"]
+}, {
+    "description": "Belt Size (Numerals only)",
+    "options": "num"
+}, null, null, null, null, null, {
+    "description": "Size in inches (if applicable)(Use e.g.17/8 for 1.7/8\"etc)",
+    "options": "str"
+}, {
+    "description": "Size in mm (or inches, use 11/4 for e.g.1.1/4\")",
+    "options": "str"
+}, null, {
+    "description": "No.of Grooves",
+    "options": "num"
+}, {
+    "description": "Size in inches (e.g.3/4,7/8,1)",
+    "options": "str"
+}, {
+    "description": "P=Pin Half  D=Driven Half",
+    "options": ["P", "D"]
+}, {
+    "description": "P = Pilot Bore",
+    "options": ["P"]
+}, {
+    "description": "Size in inches (if applicable)",
+    "options": "str"
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, {
+    "description": "Number (e.g.14,400 etc.if applicable)",
+    "options": "num"
+}, {
+    "description": "Size in inch (if applicable)or MM for Metric",
+    "options": "str"
+}, null, {
+    "description": "P=Pinion  H=Helical  PR=Primary  R=Reduction",
+    "options": ["P", "H", "PR", "R"]
+}, {
+    "description": "Ratio (5, 10, etc)",
+    "options": "num"
+}, {
+    "description": "Code or Number (e.g.10,600 or last 4 digits-4113 for 34113)",
+    "options": "num"
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, null, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, {
+    "description": "Size in inches (if applicable)",
+    "options": "str"
+}, {
+    "description": "Number",
+    "options": "num"
+}, {
+    "description": "Customer (First 4 Letters",
+    "options": "str"
+}, null, null, null, null, null, null, {
+    "description": "A=Angle    C=Copper to copper",
+    "options": ["A", "C"]
+}, null, {
+    "description": "K=Klambon    F=Flanged",
+    "options": ["K", "F"]
+}, {
+    "description": "Large Size in mm or inches",
+    "options": "str"
+}, null, null, {
+    "description": "G=Galv   B=Black   S=Steam",
+    "options": ["G", "B", "S"]
+}, null, null, {
+    "description": "K=Klambon    SH=Shedule No (Butt Weld only)",
+    "options": ["K", "SH"]
+}, null, null, null, {
+    "description": "CC=Cop/Cop  CF=Cop/F.Iron   CM=Cop/M.Iron  K=Klambon",
+    "options": ["CC", "CF", "CM", "K"]
+}, {
+    "description": "K=Klambon",
+    "options": ["K"]
+}, {
+    "description": "V=Valve  S=Spares",
+    "options": ["V", "S"]
+}, null, null, {
+    "description": "K=Klambon   C=Copper    SH=Schedule No (Butt Weld only)",
+    "options": ["K", "C", "SH"]
+}, {
+    "description": "Table No (e.g. F,H etc.-Imperial: 6/3, 10/3 etc.- Metric) )",
+    "options": "str"
+}, {
+    "description": "H=High Pressure  L=Low Pressure",
+    "options": ["H", "L"]
+}, {
+    "description": "W=Wafer     O=Other",
+    "options": ["W", "O"]
+}, {
+    "description": "Class (If applicable)",
+    "options": "str"
+}, {
+    "description": "S=Screwed    F=Flanged    SH=Shouldered",
+    "options": ["S", "F", "SH"]
+}, {
+    "description": "P=Pegler    C=Conti",
+    "options": ["P", "C"]
+}, null, {
+    "description": "G=Galv    B=Black",
+    "options": ["G", "B"]
+}, {
+    "description": "S=Screwed    F=Flanged UD",
+    "options": ["S", "F"]
+}, null, null, {
+    "description": "B=Barrel   H=Hex   S=Swaged   P=Plain   R=Running",
+    "options": ["B", "H", "S", "P", "R"]
+}, {
+    "description": "L=Light M=Medium H=Heavy LB=Large Bore F=Flanged K=Klambon",
+    "options": ["L", "M", "H", "LB", "F", "K"]
+}, null, {
+    "description": "K=Klambon  B=BSP  C=Copper  SH=Sch.No (Butt Weld) J=JIS Fitt",
+    "options": ["K", "B", "C", "SH", "J"]
+}, {
+    "description": "K=Klambon   O=Other",
+    "options": ["K", "O"]
+}, {
+    "description": "G=Galv   B=Black   S=Steam   H=Heavy Duty",
+    "options": ["G", "B", "S", "H"]
+}, {
+    "description": "S=Solder    F=Flux",
+    "options": ["S", "F"]
+}, null, {
+    "description": "K=Klambon  C=Copper  SH=Schedule No (Butt Weld only)",
+    "options": ["K", "C", "SH"]
+}, {
+    "description": "S=Square R=Round C=Copper ST=Structural RC=Rectangular",
+    "options": ["S", "R", "C", "ST", "RC"]
+}, {
+    "description": "CF=Cone Face   N=Navy   F=Flat Face",
+    "options": ["CF", "N", "F"]
+}, null, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, {
+    "description": "SS=Square Steel",
+    "options": ["SS"]
+}, {
+    "description": "Length in metres",
+    "options": "num"
+}, {
+    "description": "Length in metres (up to 2 Decimals)",
+    "options": "num"
+}, {
+    "description": "Length in metres (Max 2 Decimal) R = Random",
+    "options": "num"
+}, null, {
+    "description": "Length in metres     R=Random",
+    "options": "num"
+}, null, null, {
+    "description": "B=BMS",
+    "options": ["B"]
+}, {
+    "description": "Thickness in mm (1 Decimal only if required)",
+    "options": "num"
+}, null, null, {
+    "description": "Alpha Description (First 4 Letters)",
+    "options": null
+}, {
+    "description": "Short Description (First 4 Letters)e.g.Back=Backplate",
+    "options": null
+}, null, null, null, null, null, {
+    "description": "Model No.(e.g.820,2A,3S,4S,6S,etc)",
+    "options": "num"
+}, {
+    "description": "Model (eg OOR,11R,12R,531,532,541,542,811 etc.)",
+    "options": "str"
+}, null, null, {
+    "description": "S=Straight   B=Button Head    Degrees e.g. 45,90",
+    "options": "num"
+}, {
+    "description": "Style (e.g.4333,3XA,ACID etc.)",
+    "options": "str"
+}, null, null, null, null, null, {
+    "description": "C=Complete   S=Spares",
+    "options": ["C", "S"]
+}, {
+    "description": "Size in inches",
+    "options": "str"
+}, {
+    "description": "Small Size in mm or inch (Reducing only)",
+    "options": "str"
+}, {
+    "description": "Alpha Code (e.g.BP,SB,UB etc.) SR=Short Radius",
+    "options": ["SR"]
+}, null, {
+    "description": "D=DIVP   R=RBP",
+    "options": ["D", "R"]
+}, null, null, null, null, {
+    "description": "Small Size in mm (Reducing only)",
+    "options": "num"
+}, {
+    "description": "Small Size in mm or inch (Reducing only)",
+    "options": "str"
+}, null, null, null, null, null, null, null, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Small Size In mm",
+    "options": "num"
+}, null, {
+    "description": "No of Bolts (e.g.2,4,6 etc.)",
+    "options": "str"
+}, null, {
+    "description": "L=LPSP  MV=MIFP/MIFV  P=PSP   V=VSP",
+    "options": ["L", "MV", "P", "V"]
+}, null, {
+    "description": "V=VMP",
+    "options": ["V"]
+}, {
+    "description": "S=Serrated Face  O=O-Ring Seat  Q=QRD",
+    "options": ["S", "O", "Q"]
+}, {
+    "description": "Small Size in mm (Unequal Tees only)",
+    "options": "num"
+}, {
+    "description": "F=FI  M=MI",
+    "options": ["F", "M"]
+}, {
+    "description": "S=Sgl Union    D=Dbl Union   H=HDPE",
+    "options": ["S", "D", "H"]
+}, {
+    "description": "Belt Size(Numerals only)",
+    "options": "num"
+}, null, null, null, null, {
+    "description": "Type (e.g. H,F,TB)",
+    "options": "str"
+}, null, null, {
+    "description": "Number of Grooves",
+    "options": "num"
+}, null, null, {
+    "description": "Size in inches (e.g.3/4,3/8,1)",
+    "options": "str"
+}, null, null, null, null, {
+    "description": "Length in metres (up to 2 Decimals) R=Random",
+    "options": "num"
+}, {
+    "description": "Number (e.g.17,400 etc.if applicable)",
+    "options": "num"
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, null, null, {
+    "description": "Number (e.g.10,400 etc.if applicable)",
+    "options": "num"
+}, {
+    "description": "Size in inch (if applicable)",
+    "options": "str"
+}, {
+    "description": "Colour (First 4 letters e.g.Oran for Orange etc.)",
+    "options": "str"
+}, null, null, null, null, null, null, null, null, null, {
+    "description": "Type (e.g.H,F,TB etc)",
+    "options": "str"
+}, null, null, null, null, {
+    "description": "G=Galv  B=Black",
+    "options": ["G", "B"]
+}, null, {
+    "description": "Tank/Drum No",
+    "options": "str"
+}, null, {
+    "description": "Tank/Drum No",
+    "options": "str"
+}, {
+    "description": "Code e.g.16,63 etc",
+    "options": "str"
+}, {
+    "description": "Tank/Drum No",
+    "options": "str"
+}, null, null, null, null, {
+    "description": "Size in Inches (if Applic - Use e.g 17/8 for 1.7/8\"etc.)",
+    "options": "num"
+}, null, null, null, null, null, null, null, null, null, {
+    "description": "K=Klambon  SH=Shedule No (Butt Weld Only)",
+    "options": ["K", "SH"]
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]

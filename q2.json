@@ -1,0 +1,1414 @@
+[{
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm (to nearest mm or 1 dec for Round)",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Grader Frame Components",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Product Group (leave blank and ESC to see all)",
+    "options": null
+}, {
+    "description": "Press ESCAPE to see all DEPT 1 Buy-Out Codes )",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "P=Packing  J=Jointing  G=Gaskets  S=Sealtec E=Extractor",
+    "options": ["P", "J", "G", "S", "E"]
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm (Solder Only)",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm (or inches for Spares)",
+    "options": "str"
+}, {
+    "description": "Press ESCAPE to see all Misc DEPT 01 Products",
+    "options": null
+}, {
+    "description": "C=Covers  CU=Cushions  NS-Netting/Sacking",
+    "options": ["C", "CU"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESCAPE to see all Misc DEPT 02 Products",
+    "options": null
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Width in mm",
+    "options": "num"
+}, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Large Size in mm (No Decimals)",
+    "options": "num"
+}, {
+    "description": "P=Pipe Cutter   B=Bolt Cutter   T=Tube Cutter  S=Soil Cutter",
+    "options": ["P", "B", "T", "S"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "P=Pipe Dies  B=Bolt Dies  T=Threaders  D=Die Heads",
+    "options": ["P", "B", "T", "D"]
+}, {
+    "description": "Size in mm (At least 1 Decimal point e.g.4.0 for 4mm)",
+    "options": "num"
+}, {
+    "description": "Size in mm (1 Decimal only)",
+    "options": "num"
+}, {
+    "description": "Size in inches",
+    "options": "str"
+}, {
+    "description": "Press ESCAPE to see all Misc DEPT 03 Products",
+    "options": null
+}, {
+    "description": "Model",
+    "options": "str"
+}, {
+    "description": "H=HD   A=Adjustable   C=Chain   B=Basin",
+    "options": ["H", "A", "C", "B"]
+}, {
+    "description": "F=FHP    T=Timing",
+    "options": ["F", "T"]
+}, {
+    "description": "S=Simplex D=Duplex C=Conveyor SM=Sim.M/Link DM=Dup.M/Link",
+    "options": ["S", "D", "C", "SM", "DM"]
+}, {
+    "description": "F=Fenaflex Flange  H=HRC Flange  M=MK 3  P=Pin & Disc",
+    "options": ["F", "H", "M", "P"]
+}, {
+    "description": "Coupling Size (e.g. F40, F60 etc.)",
+    "options": "num"
+}, {
+    "description": "Size (e.g.F40, F60 etc.)",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Section (e.g.SPA,SPB,SPZ etc)",
+    "options": "str"
+}, {
+    "description": "Size (e.g.A,D,G etc)",
+    "options": "num"
+}, {
+    "description": "Pitch",
+    "options": "num"
+}, {
+    "description": "First 4 char.of description i.e. RAIL,CART,FREI,LABO",
+    "options": null
+}, {
+    "description": "First 4 char.of description i.e.RAIL,CART,LABO,CUTT",
+    "options": null
+}, {
+    "description": "First 4 char.of description i.e.RAIL,CART,AIFR,POST,LABO",
+    "options": null
+}, {
+    "description": "First 4 char.of description i.e.RAIL,CART,AIRF,POST,LABO",
+    "options": null
+}, {
+    "description": "P=PVC Pipe  PO=Poly Pipe  O=Other                       )",
+    "options": ["P", "PO", "O"]
+}, {
+    "description": "Quantity in ml",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "P=PVC    PO=Poly   M=Marley",
+    "options": ["P", "PO", "M"]
+}, {
+    "description": "P=PVC     M=Marley",
+    "options": ["P", "M"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "P=PVC  PO=Poly  C=Cast Iron  N=Nylon",
+    "options": ["P", "PO", "C", "N"]
+}, {
+    "description": "P=PVC     PO=Poly    N=Nylon",
+    "options": ["P", "PO", "N"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "P=PVC   M=Marley  N=Nylon",
+    "options": ["P", "M", "N"]
+}, {
+    "description": "P=PVC    M=Marley",
+    "options": ["P", "M"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "B=Backing Ring   M=Marley",
+    "options": ["B", "M"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "P=PVC    M=Marley",
+    "options": ["P", "M"]
+}, {
+    "description": "F=Flat   O=O-Ring",
+    "options": ["F", "O"]
+}, {
+    "description": "P=PVC   PO=Poly  C=Conduit   N=Nylon",
+    "options": ["P", "PO", "C", "N"]
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm (For Hose Clamps enter Small Size)",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Code e.g.3163, 2150 etc",
+    "options": "str"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "B=Bent   O=Off-set   S=Straight",
+    "options": ["B", "O", "S"]
+}, {
+    "description": "Press ESCAPE to see all Misc DEPT 04 Products",
+    "options": null
+}, {
+    "description": "Press ESCAPE to see all Lip Channel",
+    "options": null
+}, {
+    "description": "V=Vynadeep   S=Streamline",
+    "options": ["V", "S"]
+}, {
+    "description": "C=Coupling  A=Adaptor  T=Tee",
+    "options": ["C", "A", "T"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "No of litres",
+    "options": "str"
+}, {
+    "description": "Code (e.g.1008,1210 etc.)",
+    "options": "str"
+}, {
+    "description": "Large Size in mm (Inches for Nylon)",
+    "options": "num"
+}, {
+    "description": "Code or Type (e.g.6,315 etc.)",
+    "options": "str"
+}, {
+    "description": ".",
+    "options": "str"
+}, {
+    "description": "Press ESCAPE to see all Misc DEPT 07 Products",
+    "options": null
+}, {
+    "description": "IN=Industrial  IR=Irrigation  S=Spares",
+    "options": ["IN", "IR", "S"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESCAPE to see all DEPT 2 Buy-Out Codes",
+    "options": null
+}, {
+    "description": "T=Threading Machine  M=Motor  P=Pump",
+    "options": ["T", "M", "P"]
+}, {
+    "description": "T=Threading Machine  M=Motor  P=Pump",
+    "options": ["T", "M", "P"]
+}, {
+    "description": "Model no (e.g. 326,358 etc.)",
+    "options": "str"
+}, {
+    "description": "Press ESC to see all old codes",
+    "options": null
+}, {
+    "description": "Type (e.g.EN9,EN24,MS etc.)",
+    "options": "str"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press Escape to view all Miscellaneous Ridgid Items",
+    "options": "str"
+}, {
+    "description": "Type e.g. 1111",
+    "options": "str"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Type e.g. SE15, SE18 etc.",
+    "options": "str"
+}, {
+    "description": "D=Divan  B=Bunk Bed",
+    "options": ["D", "B"]
+}, {
+    "description": "B=Bench  P=Pew",
+    "options": ["B", "P"]
+}, {
+    "description": "B=Blackboard E=Easel BE=Blackboard & Easel",
+    "options": ["B", "E", "BE"]
+}, {
+    "description": "C=Chair A=Armchair",
+    "options": ["C", "A"]
+}, {
+    "description": "H=Hardboard P=Panelyte G=General",
+    "options": ["H", "P", "G"]
+}, {
+    "description": "D=Dom.Sci/Lab  A=All Purp/Gen Purp  L=Lusaka  O=Other",
+    "options": ["D", "A", "L", "O"]
+}, {
+    "description": "T=Teachers  S=School  ST=Steel  O=Office",
+    "options": ["T", "S", "ST", "O"]
+}, {
+    "description": "Height in inches",
+    "options": "str"
+}, {
+    "description": "Large Size in inches",
+    "options": "str"
+}, {
+    "description": "TY=Typewriter/Off.Mach T=Tea P=Photocopy C=Computer",
+    "options": ["TY", "T", "P", "C"]
+}, {
+    "description": "Press ESC to see all MIscellaneous Products",
+    "options": null
+}, {
+    "description": "W=Walking BR=Backrests B=Bassinet BM=Beams",
+    "options": ["W", "BR", "B", "BM"]
+}, {
+    "description": "Code (e.g.700C,M336,etc.)",
+    "options": "str"
+}, {
+    "description": "R=Revolving  A=All Metal  F=Filing Cabinet",
+    "options": ["R", "A", "F"]
+}, {
+    "description": "A=Adjustable  F=Fixed",
+    "options": ["A", "F"]
+}, {
+    "description": "Code (e.g.M290,M80 etc.)",
+    "options": "str"
+}, {
+    "description": "A=Adult  C=Child  I=Infant",
+    "options": ["A", "C", "I"]
+}, {
+    "description": "C=Couch  CR=Cradle  CB=Crib",
+    "options": ["C", "CR", "CB"]
+}, {
+    "description": "Height in mm",
+    "options": "num"
+}, {
+    "description": "P=Panelyte  S=Stainless Steel",
+    "options": ["P", "S"]
+}, {
+    "description": "Code (e.g.M309,M310 etc.)",
+    "options": "str"
+}, {
+    "description": "Code (e.g.M79 etc.)",
+    "options": "str"
+}, {
+    "description": "B=Bowl  D=Drum  I=Irrigation",
+    "options": ["B", "D", "I"]
+}, {
+    "description": "No.of Steps",
+    "options": "num"
+}, {
+    "description": "Code (e.g.M94 etc.)",
+    "options": "str"
+}, {
+    "description": "A=Ambulance  T=Theatre",
+    "options": ["A", "T"]
+}, {
+    "description": "Code (e.g. M322 etc.)",
+    "options": "str"
+}, {
+    "description": "F=Food  L=Linen  O=Other",
+    "options": ["F", "L", "O"]
+}, {
+    "description": "T=Top/Frt Panel  F=Frame  C=Cnr Piece  P=Piece  D=Drawer",
+    "options": ["T", "F", "C", "P", "D"]
+}, {
+    "description": "Press ESC to see all Nursery Furniture",
+    "options": null
+}, {
+    "description": "G=Garden  C=Camping  K=Kitchen  S=Sun  O=Other",
+    "options": ["G", "C", "K", "S", "O"]
+}, {
+    "description": "Press ESC to see all MIscellaneous Products",
+    "options": null
+}, {
+    "description": "F=Fishing  B=Bar  K=Kitchen  O=Other",
+    "options": ["F", "B", "K", "O"]
+}, {
+    "description": "G=Garden  O=Other",
+    "options": ["G", "O"]
+}, {
+    "description": "C=Camping  A=Army",
+    "options": ["C", "A"]
+}, {
+    "description": "U=Upholstered",
+    "options": ["U"]
+}, {
+    "description": "G=Garden  K=Kitchen D=Dining O=Other",
+    "options": ["G", "K", "D", "O"]
+}, {
+    "description": "Press ESC to see all Toys & Dolls Furniture",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Code (if applicable)",
+    "options": "str"
+}, {
+    "description": "Code (e.g.s138)",
+    "options": "str"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Miscellaneous Products",
+    "options": null
+}, {
+    "description": "First 4 Char of Description e.g.RAIL,CART,LABO etc.",
+    "options": null
+}, {
+    "description": "First 4 Char of Description e.g.RAIL,CART,LABO etc.",
+    "options": null
+}, {
+    "description": "First 4 Char of Description e.g.RAIL,CART,LABO etc.",
+    "options": null
+}, {
+    "description": "First 4 Char of Description e.g.RAIL,CART,LABO etc.",
+    "options": null
+}, {
+    "description": "Press ESC to see all Groups",
+    "options": null
+}, {
+    "description": "Press ESC to see all Groups",
+    "options": null
+}, {
+    "description": "Press ESC to see all Groups",
+    "options": null
+}, {
+    "description": "Press ESC to see all Grader Blades",
+    "options": null
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, {
+    "description": "Thickness inn mm",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Width in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Press escape to see all Aluminium Products",
+    "options": null
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, {
+    "description": "Width in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, {
+    "description": "Type (e.g.360,201 etc.)",
+    "options": "str"
+}, {
+    "description": "E=Enamel  EX=Epoxy  F=Fleetline  O=Other",
+    "options": ["E", "EX", "F", "O"]
+}, {
+    "description": "L=Lacquers  V=Varnish/Stain   O=Other",
+    "options": ["L", "V", "O"]
+}, {
+    "description": "Press ESC to see all Products",
+    "options": null
+}, {
+    "description": "Press ESC to see all Products",
+    "options": null
+}, {
+    "description": "Press ESC to see all Products",
+    "options": null
+}, {
+    "description": "Small size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Springs",
+    "options": null
+}, {
+    "description": "First 4 letters (e.g.FRAM=Frames, HING=Hinges etc.)",
+    "options": ["RAM", "ING"]
+}, {
+    "description": "Large size in mm (inches for Rims/Tyres)",
+    "options": "str"
+}, {
+    "description": "Size in mm (or Inches e.g. 3/8)",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "First 4 Char of Description e.g.RAIL,CART,LABO",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "O=Oil  G=Grease",
+    "options": ["O", "G"]
+}, {
+    "description": "Press ESC to see all Cleaning Materials",
+    "options": null
+}, {
+    "description": "C=Cartons  L=Labels  O=Other",
+    "options": ["C", "L", "O"]
+}, {
+    "description": "Press ESC to see all Protective Clothing",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "B=Blades  F=Files  W=Wire Brushes",
+    "options": ["B", "F", "W"]
+}, {
+    "description": "B=Belts  P=Paper  D=Discs  O=Other",
+    "options": ["B", "P", "D", "O"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESC to all Miscellaneous Products",
+    "options": null
+}, {
+    "description": "Size in mm (to 1 Dec.Place)",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Welding Materials",
+    "options": null
+}, {
+    "description": "Size in mm (or inch for BSP)",
+    "options": "str"
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm or inch",
+    "options": "str"
+}, {
+    "description": "Size in mm or inch",
+    "options": "str"
+}, {
+    "description": "Size in mm or inch",
+    "options": "str"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Width in mm",
+    "options": "num"
+}, {
+    "description": "Thickness in mm or inches for BMS(use 11/4 e.g.1.1/4\")",
+    "options": "str"
+}, {
+    "description": "Large Size in mm or inch (for e.g.1.1/4\" use 11/4 etc)",
+    "options": "str"
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "O.D.Size in mm",
+    "options": "num"
+}, {
+    "description": "Large size in inches (mm for Flight)",
+    "options": "str"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm (2 Decimals only)",
+    "options": "num"
+}, {
+    "description": "Size in inches",
+    "options": "str"
+}, {
+    "description": "No.of litres",
+    "options": "num"
+}, {
+    "description": "Type (e.g.CU,RHU etc)",
+    "options": "str"
+}, {
+    "description": "S=Simplex  D=Duplex  T=Triplex  L=Link  D=Dread Knot",
+    "options": ["S", "D", "T", "L", "D"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "F=FHP  E=Eagle  P=Power Twist  T=Timing",
+    "options": ["F", "E", "P", "T"]
+}, {
+    "description": "First 4 Char.of Description e.g.TRAN,LABO,CUTT",
+    "options": null
+}, {
+    "description": "First 4 Char.of Description e.g.TRAN,LABO,CUTT",
+    "options": null
+}, {
+    "description": "First 4 Char.of Description e.g.TRAN,LABO",
+    "options": null
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "First 4 Char.of Description e.g.TRAN,LABO",
+    "options": null
+}, {
+    "description": "No.  (e.g.01,08,11 etc.)",
+    "options": "num"
+}, {
+    "description": "H=Hub   S=Sleeves",
+    "options": ["H", "S"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Section (e.g.SPA,SPZ etc.) O=Other",
+    "options": ["O"]
+}, {
+    "description": "Pitch",
+    "options": "num"
+}, {
+    "description": "No. (e.g.01,08,12 etc)",
+    "options": "num"
+}, {
+    "description": "Code (e.g.1008,1210 etc.)",
+    "options": "str"
+}, {
+    "description": "Type (Max 4 Charac. e.g.LJT1,A510,6013 etc.)",
+    "options": "str"
+}, {
+    "description": "Type (e.g.CU,RHU etc.)",
+    "options": "str"
+}, {
+    "description": "Type (e.g.CU,DU etc)",
+    "options": "str"
+}, {
+    "description": "Type (e.g.CU,RHU etc)",
+    "options": "str"
+}, {
+    "description": "W=Wheel O/Catch  WO=Worm O/Catch  OS=Oilscraper",
+    "options": ["W", "WO", "OS"]
+}, {
+    "description": "Type (e.g.CU,RHU etc)",
+    "options": "str"
+}, {
+    "description": "Press ESC to see all Misc Gearbox Components",
+    "options": null
+}, {
+    "description": "Number of Teeth",
+    "options": "num"
+}, {
+    "description": "Type (e.g.A,CU etc)",
+    "options": "str"
+}, {
+    "description": "W=Wheel   WS=Wheelshaft",
+    "options": ["W", "WS"]
+}, {
+    "description": "Type (e.g.CU,RHU etc.)",
+    "options": "str"
+}, {
+    "description": "Type (e.g.BA,CU,RHU etc)",
+    "options": "str"
+}, {
+    "description": "F=Front Axle  R=Rear Axle",
+    "options": ["F", "R"]
+}, {
+    "description": "Type (e.g.RHU,CU etc)",
+    "options": "str"
+}, {
+    "description": "Type (e.g.RHU, CU etc)",
+    "options": "str"
+}, {
+    "description": "Type (e.g.CA etc",
+    "options": "str"
+}, {
+    "description": "Series No. (e.g.12,30,40 etc)",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Gear types",
+    "options": null
+}, {
+    "description": "Type (e.g. RHV etc)",
+    "options": "str"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Lift Mechanism Components",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "M=Moldboard  H=Hang Rod Assembly",
+    "options": ["M", "H"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "IN=Industrial  IR=Irrigation  S=Spares",
+    "options": ["IN", "IR", "S"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size=MM",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Product Group (Leave blank and ESC to see all)",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "First 4 char.of description i.e. RAIL,CART,AIRF,LABO",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Product Group (leave blank and ESC to see all)",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm (or inches for Spares)",
+    "options": "str"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESCAPE to see all Miscellaneous Products",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in millimetres",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm (Solder Only)",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm (to nearest mm or 1 dec for Round)",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Type e.g EN9,EN24,MS etc",
+    "options": "str"
+}, {
+    "description": "Large Size in inches (mm for Tapered Channel)",
+    "options": "str"
+}, {
+    "description": "First 4 char.of description i.e.RAIL,CART,LABO,CUTT",
+    "options": null
+}, {
+    "description": "Width in mm",
+    "options": "num"
+}, {
+    "description": "Size",
+    "options": "num"
+}, {
+    "description": "Type e.g.700 (for GR700)",
+    "options": "str"
+}, {
+    "description": "Thickness in mm",
+    "options": "num"
+}, {
+    "description": "Large Size in mm (No Decimals)",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Type e.g F=F7   FX=FX7",
+    "options": ["F", "FX"]
+}, {
+    "description": "T=Threading Machine  M=Motor  P=Pump",
+    "options": ["T", "M", "P"]
+}, {
+    "description": "T=Threading Machine  M=Motor  P=Pump",
+    "options": ["T", "M", "P"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Type e.g. 1111",
+    "options": "str"
+}, {
+    "description": "Model no (e.g. 326,358 etc.)",
+    "options": "str"
+}, {
+    "description": "First 4 char.of description i.e.RAIL,CART,AIFR,POST,LABO",
+    "options": null
+}, {
+    "description": "Size",
+    "options": "num"
+}, {
+    "description": "P=Pipe Cutter   B=Bolt Cutter   T=Tube Cutter  S=Soil Cutter",
+    "options": ["P", "B", "T", "S"]
+}, {
+    "description": "P=Pipe Dies  B=Bolt Dies  T=Threaders  D=Die Heads",
+    "options": ["P", "B", "T", "D"]
+}, {
+    "description": "Size in mm (2 Decimals only)",
+    "options": "num"
+}, {
+    "description": "Size in mm (1 Decimal only)",
+    "options": "num"
+}, {
+    "description": "Size in inches",
+    "options": "str"
+}, {
+    "description": "P=Packing  J=Jointing  G=Gaskets  S=Sealtec",
+    "options": ["P", "J", "G", "S"]
+}, {
+    "description": "Press ESC to see the Miscellaneous Products",
+    "options": null
+}, {
+    "description": "No of litres",
+    "options": "str"
+}, {
+    "description": ".",
+    "options": "str"
+}, {
+    "description": "Code or Type (e.g.6,315 etc.)",
+    "options": "str"
+}, {
+    "description": "Press Escape to view all Miscellaneous Ridgid Items",
+    "options": "str"
+}, {
+    "description": "Model",
+    "options": "str"
+}, {
+    "description": "H=HD   A=Adjustable   C=Chain   B=Basin",
+    "options": ["H", "A", "C", "B"]
+}, {
+    "description": "P=PVC    PO=Poly   M=Marley",
+    "options": ["P", "PO", "M"]
+}, {
+    "description": "P=PVC     M=Marley",
+    "options": ["P", "M"]
+}, {
+    "description": "Class",
+    "options": "str"
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "B=Bent   O=Off-set   S=Straight",
+    "options": ["B", "O", "S"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "P=PVC   PO=Poly",
+    "options": ["P", "PO"]
+}, {
+    "description": "P=PVC     PO=Poly",
+    "options": ["P", "PO"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "F=Flat   O=O-Ring",
+    "options": ["F", "O"]
+}, {
+    "description": "V=Vynadeep   S=Streamline",
+    "options": ["V", "S"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESCAPE to see all Miscellaneous Items",
+    "options": null
+}, {
+    "description": "P=Pipe  PO=Poly Pipe  M=Mine Pipe  F=Flg Pipe  R=Riser",
+    "options": ["P", "PO", "M", "F", "R"]
+}, {
+    "description": "P=PVC    M=Marley",
+    "options": ["P", "M"]
+}, {
+    "description": "B=Backing Ring   M=Marley",
+    "options": ["B", "M"]
+}, {
+    "description": "Large Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "P=PVC   M=Marley",
+    "options": ["P", "M"]
+}, {
+    "description": "Quantity in ml",
+    "options": "num"
+}, {
+    "description": "P=PVC    M=Marley",
+    "options": ["P", "M"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "P=PVC      PO=Poly",
+    "options": ["P", "PO"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "F=FHP    E=Eagle   P=Power Twist  T=Timing",
+    "options": ["F", "E", "P", "T"]
+}, {
+    "description": "Code (e.g.1008,1210 etc.)",
+    "options": "str"
+}, {
+    "description": "S=Simplex  D=Duplex   SM=Simp Mast Link  DM=Duplex Mast Link",
+    "options": ["S", "D", "SM", "DM"]
+}, {
+    "description": "First 4 char.of description i.e.RAIL,CART,AIRF,POST,LABO",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "MF=Mannflex Flange  H=HRC Flange   M=MK 3  P=Pin & Disc",
+    "options": ["MF", "H", "M", "P"]
+}, {
+    "description": "Code e.g.3163, 2150 etc",
+    "options": "str"
+}, {
+    "description": "Type ESC to see all",
+    "options": null
+}, {
+    "description": "Section (e.g.SPA,SPB,SPZ etc)",
+    "options": "str"
+}, {
+    "description": "Coupling Size (e.g. F40, F60 etc.)",
+    "options": "num"
+}, {
+    "description": "Size (e.g.A5,G13,A20 etc)  B=Backstops  S=Seals",
+    "options": "num"
+}, {
+    "description": "Pitch",
+    "options": "num"
+}, {
+    "description": "Type e.g. SE15, SE18 etc.",
+    "options": "str"
+}, {
+    "description": "Size (e.g.F40, F60 etc.)",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESCAPE to see all Expanded Metal",
+    "options": null
+}, {
+    "description": "Type (e.g. EN9,EN24,MS etc.) B=Billet R=Railway Axle",
+    "options": ["B", "R"]
+}, {
+    "description": "C=Case  B=Bottom  T=Top",
+    "options": ["C", "B", "T"]
+}, {
+    "description": "Type (e.g.CU,RHU etc.)",
+    "options": "str"
+}, {
+    "description": "Type (e.g.CU,RHU etc.)",
+    "options": "str"
+}, {
+    "description": "Type (e.g.CU,RHU etc.)",
+    "options": "str"
+}, {
+    "description": "Press ESC to see all Other Casts",
+    "options": null
+}, {
+    "description": "Series No. (e.g. 12,30,40 etc)",
+    "options": "num"
+}, {
+    "description": "W=Wheel  WO=Worm",
+    "options": ["W", "WO"]
+}, {
+    "description": "Type (e.g.CU,RHU etc.)",
+    "options": "str"
+}, {
+    "description": "No.of Litres",
+    "options": "num"
+}, {
+    "description": "Type First 4 Characters e.g.TRAN,LABO,CUTT etc",
+    "options": "str"
+}, {
+    "description": "Press ESCAPE to see all DEPT 3 Buy-Out Codes",
+    "options": null
+}, {
+    "description": "Size (e.g.F40, F60 etc)",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Labour categories",
+    "options": null
+}, {
+    "description": "Size in Inches (1/2,3/4,1 etc)",
+    "options": "num"
+}, {
+    "description": "Type First 4 Characters e.g.TRAN,LABO",
+    "options": "str"
+}, {
+    "description": "Press ESC to see all Buy Out Products",
+    "options": null
+}, {
+    "description": "Size in mm (up to 1 Decimal)",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all buy out codes",
+    "options": null
+}, {
+    "description": "MF=Mannflex Flange  H=HRC Flange  M=MK3  P=Pin & Disc",
+    "options": ["MF", "H", "M", "P"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size (e.g.A5,G13,A20 etc) B=Backstop S=Seals G=Gear.Motor",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Old Codes",
+    "options": null
+}, {
+    "description": "Size in Sq.Metres",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size e.g. A,B,C, etc.",
+    "options": "num"
+}, {
+    "description": "D=Diesel  P=Petrol",
+    "options": ["D", "P"]
+}, {
+    "description": "T=Tyres   O=Oils & Grease  OT=Other",
+    "options": ["T", "O", "OT"]
+}, {
+    "description": "D=Diesel  P=Petrol  PA=Paraffin",
+    "options": ["D", "P", "PA"]
+}, {
+    "description": "Type e.g. RV",
+    "options": "str"
+}, {
+    "description": "D=Diesel  P=Petrol",
+    "options": ["D", "P"]
+}, {
+    "description": "T=Tyres   O=Oils & Grease  OT=Other",
+    "options": ["T", "O", "OT"]
+}, {
+    "description": "Type e.g.FN19 etc",
+    "options": "str"
+}, {
+    "description": "Type e.g.v=Valves B=Bibcock",
+    "options": ["v", "B"]
+}, {
+    "description": "Description",
+    "options": null
+}, {
+    "description": "No. (e.g. 01,08,11 etc.)",
+    "options": "num"
+}, {
+    "description": "Size e.g. 6 etc",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Capacity in Litres (Use 0250 for 2500L-Max 4 digits)",
+    "options": "str"
+}, {
+    "description": "Press ESCAPE to see all DEPT 7 Buy-Out Codes",
+    "options": null
+}, {
+    "description": "Press ESCAPE to see all DEPT 4 Buy-Out Codes",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Paling",
+    "options": null
+}, {
+    "description": "Press \"ESC\" to see all Double Vee",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Stub Axle Components",
+    "options": null
+}, {
+    "description": "Press ESC to see all Side Shift Assembly Components",
+    "options": null
+}, {
+    "description": "Press ESC to see all Drawbar & Circle Components",
+    "options": null
+}, {
+    "description": "B=Ball  R=Roller  A=Agric  P=Pillow  PL=Plummer  O=Other",
+    "options": ["B", "R", "A", "P", "PL", "O"]
+}, {
+    "description": "Press \"ESC\" to see all Generators",
+    "options": null
+}, {
+    "description": "Press ESC to see all Paling",
+    "options": null
+}, {
+    "description": "Press ESCAPE to see all DEPT 09 Buy-Out Products",
+    "options": null
+}, {
+    "description": "B=Ball  R=Roller  A=Agric  P=Pillar  PL=Plummer  O=Other",
+    "options": ["B", "R", "A", "P", "PL", "O"]
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Miscellaneous Grader Parts",
+    "options": null
+}, {
+    "description": "Press ESC to see all Buy Out Codes",
+    "options": null
+}, {
+    "description": "Press \"ESC\" to see all Old Department 9 Products",
+    "options": null
+}, {
+    "description": "Press \"ESC\" to see all Buy Out Bearings",
+    "options": null
+}, {
+    "description": "Press ESC to see all Misc.Dept 08 Products",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Product Group (leave blank and ESC to see all)",
+    "options": null
+}, {
+    "description": "Press ESC to see all Complete Basic Graders",
+    "options": null
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "5pc = 5 Piece  7pc = 7 piece  9pc = 9 piece",
+    "options": ["5pc", "7pc", "9pc"]
+}, {
+    "description": "Model e.g. K2C,RHS etc",
+    "options": "str"
+}, {
+    "description": "S = Stand  D = Display Unit",
+    "options": ["S", "D"]
+}, {
+    "description": "Length in metres",
+    "options": "num"
+}, {
+    "description": "Press ESC to see all Playground Equipment",
+    "options": null
+}, {
+    "description": "M = Mining  S = Siding",
+    "options": ["M", "S"]
+}, {
+    "description": "Bore size mm",
+    "options": "num"
+}, {
+    "description": "Press \"ESC\" to see hidden codes",
+    "options": null
+}, {
+    "description": "Size e.g.450,1050 etc",
+    "options": "num"
+}, {
+    "description": "Size e.g.450,1050 etc",
+    "options": "num"
+}, {
+    "description": "Size in mm",
+    "options": "num"
+}, {
+    "description": "Length in Metres",
+    "options": "num"
+}]
