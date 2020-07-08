@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Multi tier search</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Results:</h3>
+                            <div id="results"></div>
+                        </div>
+                    </div>
+                    <div class="card" style='width:400px;margin:2rem auto;'>
+                        <div class="card-body">
+                            <h3>Search</h3>
+                            <p>Product Type:</p>
+                            <select class='form-control' name="" id="product-type">
+                                {% for opt in types %}
+                                <option value="{{opt}}">{{opt}}</option>
+                                {% endfor %}
+                            </select>
+                            <p>Query 1:</p>
+                            <div>
+                                <input class='form-control' type="text" id='q-1'>
+                                <div id='q-1-options'></div>
+                            </div>
+                            <p>Query 2:</p>
+                            <div>
+                                <input class='form-control' type="text" id='q-2'>
+                                <div id='q-2-options'></div>
+                            </div>
+                            <p>Query 3:</p>
+                            <div>
+                                <input class='form-control' type="text" id='q-3'>
+                                <div id='q-3-options'></div>
+                            </div>
+                            <p>Query 4:</p>
+                            <div>
+                                <input class='form-control' type="text" id='q-4'>
+                                <div id='q-4-options'></div>
+                            </div>
+                            <p>Query 5:</p>
+                            <div>
+                                <input class='form-control' type="text" id='q-5'>
+                                <div id='q-5-options'></div>
+                            </div>
+                            <p>Query 6:</p>
+                            <div>
+                                <input class='form-control' type="text" id='q-6'>
+                                <div id='q-6-options'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
