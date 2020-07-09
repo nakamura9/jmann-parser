@@ -2,9 +2,13 @@ import pandas as pd
 import re
 import json
 import math 
-from product_parser import get_data as gd
+from product_parser import get_data as gd, get_unique_codes
 
 NODES = 0
+# fixes 
+# - limit spaces to 3 - Done
+# - groups should have 0 or more matches not one or more 
+# - any description with e.g. must be \w - Done
 
 def process_q(val):
     # skip nan values
@@ -17,7 +21,7 @@ def process_q(val):
     if re.match("^.*ESC.*$|^.*esc.*$", val):
         data['options'] = None
     
-    elif re.match(".*inch", val):
+    elif re.match(".*inch", val) or re.match('.*e\.g.*', val):
         data['options'] = r'(\w+)'
         
     elif re.match(".*[S|s]ize", val)  \
@@ -53,7 +57,7 @@ class Node():
         curr = self.parent
         full = self.pattern
         while curr is not None:
-            full = curr.pattern + ' *' + full
+            full = curr.pattern + ' {0,3}' + full
             curr = curr.parent
             
         return full
@@ -117,8 +121,6 @@ def test_parse_tree():
                     return best_match
                 find_matches(node['children'], best_match, value, tokenizer)
         
-        
-            
     for item in dataset:
         best_match = tree['pattern']
         best_match = find_matches(tree['children'], best_match, item, tokens)
@@ -126,10 +128,25 @@ def test_parse_tree():
     with open('expanded_descriptions.json', 'w') as f:
         tree = json.dump(tokens, f)
             
+def find_unmatched():
+    dataset = get_unique_codes()
+    unmatched = []
+    matched = None
+    with open('expanded_descriptions.json', 'r') as f:
+        matched = json.load(f)
+
+    for code in dataset:
+        if not matched.get(code, None):
+            unmatched.append(code)
+            
+    with open('unmatched.txt', 'w') as fp:
+          fp.writelines(str(i) +'\n' for i in unmatched)
+            
                             
 if __name__ == '__main__':
-    # main()
+    main()
     test_parse_tree()
+    find_unmatched()
     
     
         
