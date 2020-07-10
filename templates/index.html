@@ -8,6 +8,13 @@
     <title>Multi tier search</title>
 </head>
 <body>
+    <style>
+        #results {
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+    </style>
+
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -15,7 +22,11 @@
                     <div class="card">
                         <div class="card-body">
                             <h3>Results:</h3>
-                            <div id="results"></div>
+                            <div>
+                                <ul  id="results" class="list-group">
+
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="card" style='width:400px;margin:2rem auto;'>
@@ -29,33 +40,33 @@
                             </select>
                             <p>Query 1:</p>
                             <div>
-                                <input class='form-control' type="text" id='q-1'>
-                                <div id='q-1-options'></div>
+                                <ul id='q-1-options'></ul>
+                                <input class='form-control' oninput='filterQuery()' type="text" id='q-1'>
                             </div>
                             <p>Query 2:</p>
                             <div>
-                                <input class='form-control' type="text" id='q-2'>
-                                <div id='q-2-options'></div>
+                                <ul id='q-2-options'></ul>
+                                <input class='form-control' oninput='filterQuery()' type="text" id='q-2'>
                             </div>
                             <p>Query 3:</p>
                             <div>
-                                <input class='form-control' type="text" id='q-3'>
-                                <div id='q-3-options'></div>
+                                <ul id='q-3-options'></ul>
+                                <input class='form-control' oninput='filterQuery()' type="text" id='q-3'>
                             </div>
                             <p>Query 4:</p>
                             <div>
-                                <input class='form-control' type="text" id='q-4'>
-                                <div id='q-4-options'></div>
+                                <ul id='q-4-options'></ul>
+                                <input class='form-control' oninput='filterQuery()' type="text" id='q-4'>
                             </div>
                             <p>Query 5:</p>
                             <div>
-                                <input class='form-control' type="text" id='q-5'>
-                                <div id='q-5-options'></div>
+                                <ul id='q-5-options'></ul>
+                                <input class='form-control' oninput='filterQuery()' type="text" id='q-5'>
                             </div>
                             <p>Query 6:</p>
                             <div>
-                                <input class='form-control' type="text" id='q-6'>
-                                <div id='q-6-options'></div>
+                                <ul id='q-6-options'></ul>
+                                <input class='form-control' oninput='filterQuery()' type="text" id='q-6'>
                             </div>
                         </div>
                     </div>
@@ -64,7 +75,91 @@
         </div>
     </div>
     <script>
-
+        console.log('Hello world')
+        function filterQuery(){
+            console.log('called')
+            $.ajax({
+                method: 'GET',
+                url: '/q-filter',
+                data: {
+                    product_type: $('#product-type').val(),
+                    q1: $('#q-1').val(),
+                    q2: $('#q-2').val(),
+                    q3: $('#q-3').val(),
+                    q4: $('#q-4').val(),
+                    q5: $('#q-5').val(),
+                    q6: $('#q-6').val()
+                },
+                success: function(resp){
+                    console.log(resp)
+                    $('#results').empty()
+                    resp.items.forEach(function(item){
+                        $("#results").append("<li class='list-group-item'>" + item + "</li>")
+                    })
+                    if(resp.q1_rules){
+                        $('#q-2-options').empty()
+                        resp.q1_rules.forEach(function(rule){
+                            $('#q-2-options').append("<li>" + rule + "</li>")
+                        })
+                    }
+                    if(resp.q2_rules){
+                        $('#q-3-options').empty()
+                        resp.q2_rules.forEach(function(rule){
+                            $('#q-3-options').append("<li>" + rule + "</li>")
+                        })
+                    }
+                    if(resp.q3_rules){
+                        $('#q-4-options').empty()
+                        resp.q3_rules.forEach(function(rule){
+                            $('#q-4-options').append("<li>" + rule + "</li>")
+                        })
+                    }
+                    if(resp.q4_rules){
+                        $('#q-5-options').empty()
+                        resp.q4_rules.forEach(function(rule){
+                            $('#q-5-options').append("<li>" + rule + "</li>")
+                        })
+                    }
+                    if(resp.q5_rules){
+                        $('#q-6-options').empty()
+                        resp.q5_rules.forEach(function(rule){
+                            $('#q-6-options').append("<li>" + rule + "</li>")
+                        })
+                    }
+                    /*['q1', 'q2', 'q3', 'q4', 'q5', 'q6'].forEach(function(q){
+                        if(resp[q])
+                    })*/
+                },
+                error: function(err){
+                    console.log(err)
+                }
+            })
+        }
+        
+        $(document).ready(function(){
+            $('#product-type').on('change', function(){
+                console.log('selected!')
+                console.log($('#product-type').val())
+                $.ajax({
+                    method:'GET',
+                    url: '/type-filter',
+                    data: {
+                        'product_type': $('#product-type').val()
+                    },
+                    success: function(resp){
+                        console.log(resp)
+                        $('#results').empty()
+                        $("#q1-options").empty()
+                        resp.items.forEach(function(item){
+                            $("#results").append("<li class='list-group-item'>" + item + "</li>")
+                        })
+                        resp.rules.forEach(function(rule){
+                            $("#q-1-options").append("<li>" + rule + "</li>")
+                        })
+                    }
+                })
+            })
+        })
     </script>
 </body>
 </html>

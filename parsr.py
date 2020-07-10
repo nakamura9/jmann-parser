@@ -3,6 +3,16 @@ import re
 import json
 import math 
 from product_parser import get_data as gd, get_unique_codes
+from models import Item, Base
+
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+
+engine = create_engine('sqlite:///db.sqlite3')
+Base.metadata.bind = engine
+ 
+DBSession = sessionmaker(bind=engine)
+session = DBSession()
 
 NODES = 0
 # fixes 
@@ -98,11 +108,32 @@ def main():
             
             curr = temp
             
-        print(curr.full_pattern)
-            
-    print(NODES)
     with open('trie.json', 'w') as f:
         json.dump(root.as_dict(), f)
+
+
+def find_node(val):
+    tree = None
+    result = []
+    with open('trie.json', 'r') as f:
+        tree = json.load(f)
+        
+    print('finding')
+    best_match = tree['pattern']
+    def node_finder(nodes, best_match, value, res):
+        for node in nodes:
+            m = re.match(node['pattern'], value)
+            if m:
+                best_match = node['pattern']
+                if re.match(best_match + '$', value):
+                    print(node['pattern'])
+                    res.append(node)
+                    return 
+                node_finder(node['children'], best_match, value, res)
+
+    node_finder(tree['children'], best_match, val, result)
+
+    return result[0] if len(result) > 0 else None
 
 def test_parse_tree():
     dataset = gd()
@@ -127,6 +158,24 @@ def test_parse_tree():
         
     with open('expanded_descriptions.json', 'w') as f:
         tree = json.dump(tokens, f)
+        
+    for token in tokens:
+        length = len(tokens[token])
+        
+        session.add(Item(
+            name=token or 'None',
+            department= tokens[token][0] if length > 0 else None,
+            product_type=tokens[token][1] if length > 1 else "Name",
+            q1=tokens[token][2] if length > 2 else None,
+            q2=tokens[token][3] if length > 3 else None,
+            q3=tokens[token][4] if length > 4 else None,
+            q4=tokens[token][5] if length > 5 else None,
+            q5=tokens[token][6] if length > 6 else None,
+            q6=tokens[token][7] if length > 7 else None,
+            ))
+        
+        
+    session.commit()
             
 def find_unmatched():
     dataset = get_unique_codes()
@@ -144,9 +193,10 @@ def find_unmatched():
             
                             
 if __name__ == '__main__':
-    main()
-    test_parse_tree()
-    find_unmatched()
+    # main()
+    # test_parse_tree()
+    # find_unmatched()
+    pass
     
     
         
