@@ -31,13 +31,16 @@
                     </div>
                     <div class="card" style='width:400px;margin:2rem auto;'>
                         <div class="card-body">
-                            <h3>Search</h3>
+                            <h3>Search <button class="btn btn-primary" onclick="clearFields()">CLEAR</button></h3>
+                            <p>Department:</p>
+                            <input type="number" name="" class='form-control' id="department" oninput='filterQuery()'>
                             <p>Product Type:</p>
-                            <select class='form-control' name="" id="product-type">
+                            <input type="text" list="types" class='form-control' id="product-type" oninput='filterQuery()'>
+                            <datalist id="types">
                                 {% for opt in types %}
-                                <option value="{{opt}}">{{opt}}</option>
+                                <option value="{{opt}}">
                                 {% endfor %}
-                            </select>
+                            </datalist>
                             <p>Query 1:</p>
                             <div>
                                 <ul id='q-1-options'></ul>
@@ -75,13 +78,30 @@
         </div>
     </div>
     <script>
-        console.log('Hello world')
+        function clearFields(){
+            $('#department').val('')
+            $('#product-type').val('')
+            $('#q-1').val('')
+            $('#q-2').val('')
+            $('#q-3').val('')
+            $('#q-4').val('')
+            $('#q-5').val('')
+            $('#q-6').val('')
+            $('#q-1-options').empty()
+            $('#q-2-options').empty()
+            $('#q-3-options').empty()
+            $('#q-4-options').empty()
+            $('#q-5-options').empty()
+            $('#q-6-options').empty()
+            
+        }
         function filterQuery(){
             console.log('called')
             $.ajax({
                 method: 'GET',
                 url: '/q-filter',
                 data: {
+                    department: $('#department').val(),
                     product_type: $('#product-type').val(),
                     q1: $('#q-1').val(),
                     q2: $('#q-2').val(),
@@ -96,6 +116,12 @@
                     resp.items.forEach(function(item){
                         $("#results").append("<li class='list-group-item'>" + item + "</li>")
                     })
+                    if(resp.q0_rules){
+                        $('#q-1-options').empty()
+                        resp.q0_rules.forEach(function(rule){
+                            $('#q-1-options').append("<li>" + rule + "</li>")
+                        })
+                    }
                     if(resp.q1_rules){
                         $('#q-2-options').empty()
                         resp.q1_rules.forEach(function(rule){
@@ -126,9 +152,6 @@
                             $('#q-6-options').append("<li>" + rule + "</li>")
                         })
                     }
-                    /*['q1', 'q2', 'q3', 'q4', 'q5', 'q6'].forEach(function(q){
-                        if(resp[q])
-                    })*/
                 },
                 error: function(err){
                     console.log(err)
@@ -136,30 +159,7 @@
             })
         }
         
-        $(document).ready(function(){
-            $('#product-type').on('change', function(){
-                console.log('selected!')
-                console.log($('#product-type').val())
-                $.ajax({
-                    method:'GET',
-                    url: '/type-filter',
-                    data: {
-                        'product_type': $('#product-type').val()
-                    },
-                    success: function(resp){
-                        console.log(resp)
-                        $('#results').empty()
-                        $("#q1-options").empty()
-                        resp.items.forEach(function(item){
-                            $("#results").append("<li class='list-group-item'>" + item + "</li>")
-                        })
-                        resp.rules.forEach(function(rule){
-                            $("#q-1-options").append("<li>" + rule + "</li>")
-                        })
-                    }
-                })
-            })
-        })
+        
     </script>
 </body>
 </html>

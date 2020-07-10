@@ -28,31 +28,18 @@ def hello_world():
         
     return render_template('index.html', types=lines)
 
-@app.route('/type-filter')
-def product_type_filter():
-    resp = {}
-    
-    product_type = request.args.get('product_type')
-    
-    res = session.query(Item).filter(Item.product_type == product_type).all()
-    resp['items'] = [i.name for i in res[:100]]
-    rules = set()
-    for node in mapping['children']:
-        if node['description'] == product_type:
-            for subnode in node['children']:
-                rules.add(subnode['description'])
-                
-    resp['rules'] = list(rules) 
-    return jsonify(resp)
-
 @app.route('/q-filter') #/<int:q>
 def q1_filter():
     resp = {}
     filters = {}
+    department = request.args.get('department')
+    filters['department'] = department
     product_type = request.args.get('product_type')
     filters['product_type'] = product_type
     # 01 for the department group
-    qs = "01" + product_type
+    qs = [department, product_type]
+    root = find_node(" ".join(qs))
+    resp['q0_rules'] = [i['description'] for i in root['children']]
     
     def process_q(n, f,response, query_string): 
         global request
@@ -63,15 +50,15 @@ def q1_filter():
             if n == "q6":
                 return
             
-            query_string += " " + q
-            node = find_node(query_string)
+            query_string.append(q)
+            node = find_node(" ".join(query_string))
             if node:
                 response[n + "_rules"] = [i['description'] for \
                     i in node['children']]
     
     for q in ['q1', 'q2', 'q3', 'q4', 'q5', 'q6']:
         process_q(q, filters, resp, qs)
-    
+        
     query = session.query(Item).filter_by(**filters).all()
     resp['items'] = [i.name for i in query[:100]]
     

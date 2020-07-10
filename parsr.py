@@ -44,7 +44,6 @@ def process_q(val):
         data['options'] =  "(" + "|".join(opt_list) + ")"
     
     else:
-        print('else: ', val)
         data['options'] = r'(\w+)'
         
     return data
@@ -118,7 +117,6 @@ def find_node(val):
     with open('trie.json', 'r') as f:
         tree = json.load(f)
         
-    print('finding')
     best_match = tree['pattern']
     def node_finder(nodes, best_match, value, res):
         for node in nodes:
@@ -126,7 +124,6 @@ def find_node(val):
             if m:
                 best_match = node['pattern']
                 if re.match(best_match + '$', value):
-                    print(node['pattern'])
                     res.append(node)
                     return 
                 node_finder(node['children'], best_match, value, res)
